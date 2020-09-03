@@ -1,18 +1,21 @@
-body{
+html{
   background-image: url("images/BACKGROUND_Buttonless.png");
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center;
   overflow-x: hidden;
+  overflow-y:hidden;
 }
-
-#tools input{
+.tools input{
   width:70px;
   height:70px;
+  margin:auto;
+  padding:9px;
+  background-color: rgba(255,255,255,.1);
 }
 .maps input{
-  width:100px;
-  height:100px;
+  width:91px;
+  height:91px;
 }
 
 .mapIcons{
@@ -24,15 +27,16 @@ body{
   float:left;
   /*max-width: 950px;*/
 }
-#tools {
-
+.tools {
+    margin-left:850px;
 }
-#tools ul{
+.tools ul{
   list-style: none;
   padding:0px 10px;
-  background-color: rgba(255,255,255,.1);
+
 
 }
 #tools li{
   padding:10px 0px;
+  max-width: 90px;
 }

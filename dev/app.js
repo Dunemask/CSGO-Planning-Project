@@ -4,17 +4,18 @@ const { app, BrowserWindow } = require('electron')
 function createWindow () {
   // Create the browser window.
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 960,
+    height: 965,
     webPreferences: {
       nodeIntegration: true
     },
-    icon: __dirname + '/CSGO.ico'
+    icon: __dirname + '/CSGO.png'
   })
 
   // and load the index.html of the app.
   win.loadFile('www/index.html')
-  win.webContents.openDevTools()
+  //win.webContents.openDevTools()
+  win.removeMenu();
 }
 
 app.whenReady().then(createWindow)
