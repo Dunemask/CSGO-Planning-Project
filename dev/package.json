@@ -4,7 +4,8 @@
   "description": "CSGO Planning Tool For my Little Brother",
   "main": "app.js",
   "scripts": {
-    "test": "electron ."
+    "test": "electron .",
+    "build": "cd ../ && electron-packager dev/ CSGOPlanner --platform win32 --icon dev/CSGO.png"
   },
   "author": "Dunemask",
   "license": "ISC",
