@@ -1,0 +1,14 @@
+{
+  "name": "csgoplanner",
+  "version": "1.0.0",
+  "description": "CSGO Planning Tool For my Little Brother",
+  "main": "app.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Dunemask",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.1"
+  }
+}

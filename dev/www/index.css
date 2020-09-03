@@ -1,0 +1,38 @@
+body{
+  background-image: url("images/BACKGROUND_Buttonless.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  overflow-x: hidden;
+}
+
+#tools input{
+  width:70px;
+  height:70px;
+}
+.maps input{
+  width:100px;
+  height:100px;
+}
+
+.mapIcons{
+  width:20px;
+  height:20px;
+}
+
+#mapInfo{
+  float:left;
+  /*max-width: 950px;*/
+}
+#tools {
+
+}
+#tools ul{
+  list-style: none;
+  padding:0px 10px;
+  background-color: rgba(255,255,255,.1);
+
+}
+#tools li{
+  padding:10px 0px;
+}
